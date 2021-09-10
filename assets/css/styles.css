@@ -8,3 +8,8 @@ h1{
     font-size: 20px;
     font-weight: bold;
 }
+
+li{
+    padding-top: 20px;
+    list-style: none;
+}
