@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200;300;400;500;600;700&display=swap');
 :root{
     --dark-gray: #616161;
+    --white: #FFFFFF;
 }
 
 .navbar{
@@ -11,4 +12,8 @@
     font-family: 'Yanone Kaffeesatz', sans-serif;
     font-size: 25px;
     font-weight: 600;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: var(--white);
 }
