@@ -1,15 +1,14 @@
-h1{
-    margin-top: 25px;
-    text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200;300;400;500;600;700&display=swap');
+:root{
+    --dark-gray: #616161;
 }
 
-.members{
-    padding: 20px;
-    font-size: 20px;
-    font-weight: bold;
+.navbar{
+    background-color: var(--dark-gray)!important;
+    padding-left: 25px;
 }
-
-li{
-    padding-top: 20px;
-    list-style: none;
+.navbar-brand{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
 }
