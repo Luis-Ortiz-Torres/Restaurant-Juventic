@@ -1,3 +1,51 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200;300;400;500;600;700&display=swap');
+
+*{
+    font-family: 'Yanone Kaffeesatz';
+}
+.container .navbar-brand{
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.container .navbar-brand:hover{
+    color: white;
+}
+
+
+.carousel-item{
+    height: 80vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    background-size: cover;
+}
+
+.carousel-caption{
+    bottom: 100px;
+}
+.carousel-caption img{
+    padding-top: 0px;
+    height: 300px;
+}
+
+.carousel-caption h5 {
+    font-size: 50px;
+}
+
+.carousel-caption span{
+    background-color: rgb(255, 166, 0);
+}
+
+.nav-item .nav-link{
+    color: white !important;
+    margin-right: 50px;
+    font-size: 20px;
+}
+
+/*Luis Code Css*/
 h1 {
     color: rgb(0, 0, 0);
     font-size:  50px;
@@ -11,15 +59,4 @@ h1 {
 .divserdescripcion {
     height: 150px;
     width: 60%;
-}
-
-.members{
-    padding: 20px;
-    font-size: 20px;
-    font-weight: bold;
-}
-
-li{
-    padding-top: 20px;
-    list-style: none;
 }
